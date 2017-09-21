@@ -1,0 +1,222 @@
+html {
+    color: #666;
+    background-color: #F2F2F2;
+    -webkit-text-size-adjust: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent
+}
+body,button,dd,dl,dt,footer,h1,h2,h3,h4,input,li,nav,ol,p,textarea,ul {
+    margin: 0;
+    padding: 0
+}
+audio,canvas,video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+article,footer,header,hgroup,menu,nav,section,summary {
+    display: block
+}
+
+article,aside,audio,canvas,details,fieldset,figcaption,figure,footer,form,header,hgroup,label,legend,mark,menu,nav,section,summary,time,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0
+}
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,html,img,input,legend,li,ol,p,pre,td,textarea,th,ul {
+    margin: 0;
+    padding: 0
+}
+
+body,button,input,select,textarea {
+    font: 14px/1.5 "Helvetica neue",Helvetica,Tahoma,Arial,"\5FAE\8F6F\96C5\9ED1","\5B8B\4F53",sans-serif
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    margin: 0;
+    padding: 0;
+    display: block
+}
+
+audio,canvas,video {
+    display: inline-block
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+    height: auto
+}
+
+/* Default site styles*/
+body {
+    background: #f5f5f5;
+    height:100% !important; 
+    width:100% !important; 
+    padding:0px !important;  
+    margin:0px !important; 
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    min-width: 320px;
+    font-family: "Lantinghei SC","Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust: none;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+    font-weight: 500
+}
+
+form {
+    display: inline
+}
+
+ol,ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: #1a1a1a
+}
+
+a:active,a:focus,a:hover {
+    color: #1c5aa2;
+    text-decoration: none
+}
+
+a:active {
+    color: #aaa
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic
+}
+
+button,input,select,textarea {
+    font-size: 100%;
+    vertical-align: middle;
+    outline: 0
+}
+
+button,input[type=button],input[type=reset],input[type=submit] {
+    cursor: pointer;
+    -webkit-appearance: button;
+    -moz-appearance: button
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+    padding: 0;
+    border: 0
+}
+
+input:focus:-moz-placeholder,input:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+textarea {
+    resize: none
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+th {
+    text-align: inherit
+}
+
+blockquote,q {
+    quotes: none
+}
+
+blockquote:after,blockquote:before,q:after,q:before {
+    content: '';
+    content: none
+}
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none
+}
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: 700
+}
+
+del {
+    text-decoration: line-through
+}
+
+abbr[title],dfn[title] {
+    border-bottom: 1px dotted #000;
+    cursor: help
+}
+
+nav ul {
+    list-style: none
+}
+
+
+
+
+
+
+
+#fix_footer {-moz-box-shadow: 0px 0px 11px #191919;-webkit-box-shadow: 0px 0px 11px #191919;box-shadow: 0px 0px 11px #191919;
+	left: 0; background-color: #191919; color: #ffffff; height: 30px; width: 100%; position: fixed; bottom: 0%; font-size: 14px; box-shadow: 0px 0px 11px #191919; padding-top: 5px
+}
+#fix_footer_menu {border-right: 1px solid rgba(0, 0, 0, 0.4);background: rgba(0, 0, 0, 0.1);font-family: 黑体;}
+
+#fix_footer_menu_on {border-right: 1px solid rgba(0, 0, 0, 0.4);background: rgba(0, 0, 0, 0.3);font-family: 黑体;background: #202020; /* Fallback color for old browsers */}
+
+#loading {height: 34px;line-height: 34px;margin: 10px;background-image: -webkit-gradient(linear, 0 100%, 0 0, color-stop(0.03, rgb(224, 224, 224)), color-stop(.31, rgb(226, 226, 226)),color-stop(1, rgb(236, 236, 236)));
+	background: -webkit-linear-gradient(bottom, rgb(224, 224, 224) 3%,
+		rgb(226, 226, 226) 31%, rgb(236, 236, 236)) rgb(236, 236, 236);
+	border-radius: 3px;
+	text-align: center;
+	text-shadow: #fff 0 1px 0;
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(34, 34, 34, 0.31);
+	box-shadow: 0px 1px 2px 0px rgba(34, 34, 34, 0.31);
+	font-size: 16px;
+	color: rgb(80, 80, 80);
+	-webkit-text-shadow: 1px 1px 0px rgba(12, 3, 7, .1);
+	display: block;
+	font-size: 16px;
+	cursor: pointer;
+}
+#banner{
+	height: 20px !important;
+}
+#iframe{
+	width: 100%;
+	margin: 0px !important;
+}
+#tb_menu{
+	border-collapse: collapse;
+	cursor: pointer;
+}
+
+.menu-active{
+	font-weight: bold;
+	color: #ff7300;
+}
+.gameItem .from{
+	width: 36px !important;
+}

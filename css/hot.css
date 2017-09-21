@@ -1,0 +1,181 @@
+.games {
+    overflow: hidden
+}
+
+.games .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: flexbox;
+    display: box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 98%;
+    margin: 0 1% 2%;
+    background-color: #fff;
+    border: 1px solid #efefef;
+    margin-bottom: 2%;
+    -webkit-tap-highlight-color: rgba(242,242,242,.8);
+    padding: 10px 0
+}
+
+.games .item .pic {
+    display: block;
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    -ms-box-flex: 0;
+    box-flex: 0;
+    width: 66px;
+    margin: 0 10px
+}
+
+.games .item .pic img {
+    display: block;
+    width: 100%;
+    height: 66px;
+    border-radius: 15px
+}
+
+.games .item .info {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-box-flex: 1;
+    box-flex: 1;
+    display: block;
+    width: 30%;
+    overflow: hidden;
+    padding-top: 6px
+}
+
+.games .item .info .name {
+    width: 95%;
+    height: 22px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.games .item .info .attr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: flexbox;
+    display: box;
+    margin-bottom: 2px;
+    font-size: 12px;
+    color: #aaa
+}
+
+.games .item .info .attr a {
+    color: #aaa
+}
+
+.games .item .info .attr .kind {
+    display: block;
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    -ms-box-flex: 0;
+    box-flex: 0;
+    width: 55px
+}
+
+.games .item .info .attr .byte {
+    display: block;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-box-flex: 1;
+    box-flex: 1;
+    width: 95%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.games .item .info .star {
+    width: 50px;
+    background-position: 0 -10px
+}
+
+.games .item .info .star,.games .item .info .star .star-num {
+    height: 10px;
+    background-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAoCAYAAAAIeF9DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABzFJREFUeNrsm8tvHEUQh6t7emZnveu112vnZXAgiYlDEEEgAQEhDgiEBARzyQEpoCi5EYmE/wCuCCm3cEBCSoTEDQ48D9yAAEIh4iEjjLAdx3Hix9pee23vzotfze5sxhvHj9lrt9TyTFf1NyPVVnV19ViMf0wkBYVN4G/KJApoTZPo+yEzgoD+w3U1EvC0igP9+gS//lfzkvMkNbUmmIFpLxnZnm9kdscQ1N+vja2ru27TvO3xjHcGa5aNmu/XTMdWC1x6VHX0fJg78kp/uvdhqs5PdDlLiz8HgiZY7rq3rRt/gOYl58kNjK0CIV+0Cn0HjbYsCcskq3tvv1ByEDNN2n7TvC3w7gxZMJPnwdIu7VGZ9pdTnT2IegsIdkVK5bvJyHQOQr6fdYIt+LDmbY+nGiCfduFPHt2CovA9esyy0o+pjF0DwqxG2iIjlRnwqsXnhEEpqrkqL1LzQtLkmhfTvEQ8NogA4A3Dtl8zTHVISNmJIRn4gZHqyMG1Kgh2UWIAt8vlyC7k3gO/GsZK3y/5rvuPu7r6ORQ+4cRB85LzBNLeF+xc7ttsby8p2yZpcGKASAYTC0PhUjS5ZEAB+1u0iLkeuZVVKt+cpJW5+TcxdFPzkvNU4IsDKm2T3ZUmcljRayRsFMCyblDPmGt5gEBKEX+ItASpTJqqi2lanl24H0NZzUvOE6MfUbdQxo/de3f0txXaaruTYIt5BHMNSavzyzQzMj3iVZ1nMbKiecl5xtljtOw5wZ8rC+XHDeH1pNKgCU4TeAu5QRfo5FB5qkSzo8V/nYr7lpR0BYOa1wKPDcJt1HPpSrlU2edV3fuV8kiZfpi78e7mjk4uOSsVmrtRpuJE+TJe6G3AvottkDQvIc8492pjt3kda81Pq2Vvj2kFh9LtHA4Z4N3ZpU/lYpVmJ6pfez6dVYp+YRigjV2r5iXjqUo1VtzyacKyyLZtTHL9u8dCiK1UQFJR1q3QiOOuLSFoXnKeDHeVfq0DvN8w6Xk754dpW8Oiot6je8jsrE+mRU/hoQ9G85mlea3xZFgEq3VO1B5JtQkTWQMA6JxTw59KcwaVinyvamN1mZ3FhaBnsEu1YhzNa4GnwupkLUW2pJIPpdoR/FJI31LwHy+g6bESzVxbvszKhdX00R335UhYMqwVWLlVbItKhzzfT8Hdqk11aM1LwIt7CMaDKVcA2NFPi4vtNPJ7aWlqZOW85wVvQHZ8+trKuxgrluazoY5Hnexqt/Ayzjq/GM1LwBN/nF9j53uEVJ8alnrac5yvsa3/AHb+QWDvUi+gYSmio1IZ5wzTPOa57g+B674O0fhdzls0b5u8ZoOwldrQbbhQmSuR+BvEswmuZNYrmlmMr6Avb1KO1rxt8MTFixfD+kot7RJkmuZ6G/wuyEQQBHO3izW1dvz48TXKly5d0rwWeGqTagsfYPW3tbW9CF6+XC7/jPtvOeWmZE3zNuHJ5tKw4zhYaPywu667C7DnBwYG8ocPH6ZsNnsAY3siOetu7L6at12e3MS6Bzo7O7ux9UQ6rSifzxeklAN4sJHw16J5m/Dkelb2sGVEb4d1H8jlcqElq9UqdXR0EMYGIMuzTrCFQ2bN2x5PxUBIjinNFfq6S+2BVXezdSPXSqVSZFlWN9xuHyyteBHDosaL1OqJEycWm15M8xLwOMviLOAIFAcA6IGiXTtnD0ShUEjv3r2bY2HtEAzb/ampKZqZmVmJsgU8uAJrz1Yqlb9x+3t9XPMS8tgg+7HYnNi5cydbL5zElmMr87WUcl2XbBQucc3uOD09TaVS6TMMLWlecp6CQhe7Fce6yJLh4gIQT46PRbm2iJ3M8GLF85eWlmhhYSH8DEbzkvMULPkXXOhJxLcCLzrhVxHB1g6FGcwPnp2dZQvPgfUbn0tqXnKeMTg46MBtphcXF3uhkOGFp/G5ygY90ikWi3Tjxo0i3O6rkydPTl69elXzWuCxQVgwD+hNQPPICPIc+9iVOA7eDYZFKIx7t27dGodbfnPq1Cn+1J7wgprXAk9GMQ2uMw7Al3CfIYDDidGOsrmzjGMeXHUYL/LF6dOnR5tjpOYl4yle4W9/Su+XTNNU7HYbbYQYykU0/BIszJ+PyzSvNZ5sslwXXG0fdpNr3C36FUT3LGMdQO/FfU/zwzQvOU/GYhsnzLuQghlRLs0ZAF8jP+aUrJFXR7J0Os0hr+/ChQvGmm9XNS8xj9Pexn9Toe3IZDIUZQosQwZAk5OT4/xQLET39vJHxapWccGGiFO2Huip2M5T81rgqVicw7hfZuu1t7fz6k9jY2NVWPcKdH7hz+0AfrRcLj/R19cXlgQ4f8acpfihi+a1xosfUHkQ/gHIQVi1D6nYMPplPOAault/+PdwvdGhoaGjw8PDByG/hsXr1+ZTMM1Lzms+MSxB4RIUuRLp1BXjqQKDxyC/jnzbYp0zZ85sdGqjedvk/S/AAJqtrfKjboDDAAAAAElFTkSuQmCC);background-size: 50px 20px;
+    background-repeat: no-repeat
+}
+
+.games .item .info .star .star-num {
+    background-position: 0 0;
+    width: 50%
+}
+
+.games .item .down {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-box-flex: 1;
+    box-flex: 1;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: flexbox;
+    display: box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    text-align: center
+}
+
+.games .item .down a {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #0080ff;
+    border-radius: 3px
+}
+
+.games .item .down .price {
+    font: 400 12px/22px microsoft yahei;
+    color: #666;
+    margin-top: 8px
+}
+
+.games .item .down .p-free {
+    text-decoration: line-through
+}
+
+@media screen and (min-width:600px) {
+    .games {
+        overflow: hidden
+    }
+
+    .games .item {
+        float: left;
+        width: 48%
+    }
+}
+
+.title {
+    height: 36px;
+    padding-left: 16px;
+    margin: 1% 1% 0;
+    color: #666;
+    font: 400 15px/36px microsoft yahei;
+    background-color: #FFF;
+    border: 1px solid #efefef
+}
+
+.boxs {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin: 1% 0
+}
